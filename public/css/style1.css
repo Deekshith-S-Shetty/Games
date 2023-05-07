@@ -1,0 +1,30 @@
+body {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#board {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 455px;
+  height: 455px;
+  border: 2px solid grey;
+}
+
+.square {
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  font-size: 60px;
+  text-align: center;
+  line-height: 150px;
+  cursor: pointer;
+  transition: transform 0.5s ease-in-out;
+}
+.square:hover {
+  transform: rotateY(180deg);
+}
