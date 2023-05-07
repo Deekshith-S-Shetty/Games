@@ -1,0 +1,17 @@
+.main {
+  width: 30%;
+  margin: 200px auto;
+}
+
+button {
+  margin: 4px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 7px 15px;
+  background-color: rgb(30, 114, 141);
+  color: white;
+}
+
+span {
+  color: rgb(206, 131, 26);
+}
