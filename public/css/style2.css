@@ -1,0 +1,44 @@
+body {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.grid {
+  width: 300px;
+  height: 300px;
+  border: solid black 1px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid div {
+  width: 20px;
+  height: 20px;
+}
+
+h1 {
+  color: cadetblue;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.invader {
+  background-color: purple;
+  border-radius: 10px;
+  margin: 1px;
+}
+
+.shooter {
+  background-color: green;
+}
+
+.laser {
+  background-color: orange;
+}
+
+.boom {
+  background-color: red;
+}
